@@ -17,7 +17,7 @@
 			"description": "Disable updating Gradle CI matrix, they use the latest patch of a specific minor.",
 			"matchPackageNames": ["gradle"],
 			"matchPaths": [".github/workflows/CI.yml"],
-			"matchCurrentVersion": "<7.0",
+			"matchCurrentVersion": "[,7.0)",
 			"matchUpdateTypes": ["minor"],
 			"enabled": false
 		}
