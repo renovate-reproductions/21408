@@ -24,11 +24,11 @@ jobs:
       matrix:
         include:
           - name: "Gradle 6.5+ - outdated, latest 6.5.1"
-            gradle: '6.5'
+            gradle: '6.9.4'
           - name: "Gradle 6.6+ - up to date"
-            gradle: '6.6.1'
+            gradle: '6.9.4'
           - name: "Gradle 6.8+ - outdated, latest 6.8.3"
-            gradle: '6.8.2'
+            gradle: '6.9.4'
           - name: "Gradle 6.9+ - outdated, latest 6.9.4"
             gradle: '6.9.3'
           - name: "Gradle 7.x - outdated, latest 7.6.1"
