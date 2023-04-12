@@ -32,4 +32,4 @@ jobs:
           - name: "Gradle 6.9+ - outdated, latest 6.9.4"
             gradle: '6.9.3'
           - name: "Gradle 7.x - outdated, latest 7.6.1"
-            gradle: '7.4.2'
+            gradle: '7.6.1'
